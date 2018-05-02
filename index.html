@@ -154,15 +154,15 @@ angle from the IMU is very inaccurate than the coordinates calculated will be of
               
                   Enable I2C instructions
               
-                  <img class = "img-fluid" src= "image/code.jpg" alt="">
+                  <img class = "img-fluid" src= "image/newDir/code.jpg" alt="">
               
                   Added two lines : I2c-dev ; I2c-bcm2708. Then update /boot/config.text
               
-                  <img class = "img-fluid" src= "image/code3.jpg" alt="">
+                  <img class = "img-fluid" src= "image/newDir/code3.jpg" alt="">
               
                 Add to the bottom: dtparam =i2c_arm = on ; dtparam = i2c1 = on <br>
                   Reboot, Connect I2C components, check for component address with i2cdetect <br>
-                  <img class = "img-fluid" src= "image/code2.jpg" alt="">
+                  <img class = "img-fluid" src= "image/newDir/code2.jpg" alt="">
 
                   Based on I2C address from step above, change address in LSM9DS0.py
                   <br>
